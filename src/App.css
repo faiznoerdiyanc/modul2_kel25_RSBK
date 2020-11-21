@@ -1,5 +1,28 @@
+@import '~antd/dist/antd.css';
+
+.buttons{
+  background-color: #f5b461;
+  border-color: black;
+  height: 5vh;
+  border-radius: 8px;
+}
+
+.cards-text{
+  font-weight: bold;
+  font-size: large;
+}
+
+.my-header{
+  background-color: #9ad3bc;
+  color: #000000;
+  align-items: center;
+  padding: 1%;
+  height: 10vh;
+}
+
 .App {
   text-align: center;
+  background-color: #ec524b;
 }
 
 .App-logo {
@@ -14,14 +37,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ffffff;
   display: flex;
+  min-height: 30px;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-content {
+  background-color: #FFFFFF;
+  min-height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
 }
 
 .App-link {
@@ -35,4 +69,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.site-page-header-ghost-wrapper {
+  background-color: #f5f5f5;
+  padding: 24px;
 }
