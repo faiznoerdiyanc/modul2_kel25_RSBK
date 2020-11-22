@@ -1,3 +1,12 @@
+## How to Initiate project
+
+1. Clone project (git clone https://github.com/sayyidyofa/modul3-rsbk.git) at terminal
+2. Go to cloned project directory
+3. `npm install`
+4. Wait...
+5. then `npm run start`
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
